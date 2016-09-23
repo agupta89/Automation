@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SmokeTestCasesSuite" verbose="1" preserve-order="true"  >
+   
+<test name="Smoketest_Chrome1" preserve-order="true">
+
+<!-- pass data on below parameters before executing test suite -->
+<parameter name="browserName" value="htmlunit"></parameter>
+<parameter name="environment" value="qa"></parameter>
+
+<classes>
+
+<class name="com.way2selenium.testcases.TestCases"></class> 
+				  
+</classes>
+
+</test>
+
+</suite> 
+  
+
+    
+  

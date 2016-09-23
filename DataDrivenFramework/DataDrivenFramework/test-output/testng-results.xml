@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeTestCasesSuite" duration-ms="16020" started-at="2016-09-22T12:12:30Z" finished-at="2016-09-22T12:12:46Z">
+    <groups>
+    </groups>
+    <test name="Smoketest_Chrome1" duration-ms="16020" started-at="2016-09-22T12:12:30Z" finished-at="2016-09-22T12:12:46Z">
+      <class name="com.way2selenium.testcases.TestCases">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.way2selenium.testcases.TestCases@271053e1]" name="setup" is-config="true" duration-ms="7978" started-at="2016-09-22T17:42:30Z" finished-at="2016-09-22T17:42:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[htmlunit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="contactForm()[pri:1, instance:com.way2selenium.testcases.TestCases@271053e1]" name="contactForm" duration-ms="7997" started-at="2016-09-22T17:42:38Z" finished-at="2016-09-22T17:42:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactForm -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.way2selenium.testcases.TestCases@271053e1]" name="end" is-config="true" duration-ms="4" started-at="2016-09-22T17:42:46Z" finished-at="2016-09-22T17:42:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="FAIL" signature="teardown()[pri:0, instance:com.way2selenium.testcases.TestCases@271053e1]" name="teardown" is-config="true" duration-ms="0" started-at="2016-09-22T17:42:46Z" finished-at="2016-09-22T17:42:46Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Window is closed
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'group10-PC', ip: '172.18.0.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: driver.version: HtmlUnitDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Window is closed
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'group10-PC', ip: '172.18.0.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: driver.version: HtmlUnitDriver
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.getCurrentWindow(HtmlUnitDriver.java:1398)
+	at org.openqa.selenium.htmlunit.HtmlUnitAlert.close(HtmlUnitAlert.java:99)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.quit(HtmlUnitDriver.java:650)
+	at com.way2selenium.testcases.TestCases.teardown(TestCases.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.afterRun(TestRunner.java:973)
+	at org.testng.TestRunner.run(TestRunner.java:604)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.way2selenium.testcases.TestCases -->
+    </test> <!-- Smoketest_Chrome1 -->
+  </suite> <!-- SmokeTestCasesSuite -->
+</testng-results>
